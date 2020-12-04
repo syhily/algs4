@@ -1,6 +1,6 @@
 # algs4
 
-The answer for Algorithms, 4th Edition
+[算法（第 4 版）](https://www.ituring.com.cn/book/875)课后练习自学解答。
 
 ##  macOS 开发环境搭建
 
@@ -23,7 +23,7 @@ The answer for Algorithms, 4th Edition
 </dependency>
 ```
 
-## 习题解答
+## 习题解答目录
 
 1. 第一章
    1. [1.1 习题解答](src/main/java/moe/yufan/study/chapter1/section1/README.md)
