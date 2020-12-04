@@ -1,5 +1,7 @@
 package moe.yufan.study.chapter1.section1;
 
+import lombok.experimental.UtilityClass;
+
 /**
  * Write a static method histogram() that takes an array a[] of int values
  * and an integer M as arguments and returns an array of length M
@@ -12,6 +14,7 @@ package moe.yufan.study.chapter1.section1;
  * @version 1.0.0, 2020-12-04 22:35
  * @since 1.0.0, 2020-12-04 22:35
  */
+@UtilityClass
 public class ArrayHistogram {
 
     public static int[] histogram(int[] array, int m) {

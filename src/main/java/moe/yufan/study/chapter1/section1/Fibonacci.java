@@ -1,6 +1,7 @@
 package moe.yufan.study.chapter1.section1;
 
 import edu.princeton.cs.algs4.StdOut;
+import lombok.experimental.UtilityClass;
 
 /**
  * Develop a better implementation of F(N) that saves computed values in an array.
@@ -9,6 +10,7 @@ import edu.princeton.cs.algs4.StdOut;
  * @version 1.0.0, 2020-12-04 23:00
  * @since 1.0.0, 2020-12-04 23:00
  */
+@UtilityClass
 public class Fibonacci {
 
     private static final long[] RESULT_CACHE = new long[100];

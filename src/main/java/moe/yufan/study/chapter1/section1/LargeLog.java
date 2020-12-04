@@ -1,5 +1,7 @@
 package moe.yufan.study.chapter1.section1;
 
+import lombok.experimental.UtilityClass;
+
 /**
  * Write a static method lg() that takes an int value N as argument
  * and returns the largest int not larger than the base-2 logarithm of N. Do not use Math.
@@ -8,6 +10,7 @@ package moe.yufan.study.chapter1.section1;
  * @version 1.0.0, 2020-12-04 22:10
  * @since 1.0.0, 2020-12-04 22:10
  */
+@UtilityClass
 public class LargeLog {
 
     public static int lg(int num) {

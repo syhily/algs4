@@ -1,6 +1,7 @@
 package moe.yufan.study.chapter1.section1;
 
 import edu.princeton.cs.algs4.StdOut;
+import lombok.experimental.UtilityClass;
 
 /**
  * Write a code fragment that prints the contents of a two-dimensional boolean array,
@@ -10,9 +11,10 @@ import edu.princeton.cs.algs4.StdOut;
  * @version 1.0.0, 2020-12-04 21:53
  * @since 1.0.0, 2020-12-04 21:53
  */
+@UtilityClass
 public class TwoDimensionalArray {
 
-    public void printArray(boolean[][] array) {
+    public static void printArray(boolean[][] array) {
         for (int i = 0; i < array.length; i++) {
             boolean[] booleans = array[i];
             for (int i1 = 0; i1 < booleans.length; i1++) {
