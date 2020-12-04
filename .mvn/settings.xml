@@ -1,0 +1,10 @@
+<!-- Maven mirror for central. -->
+<settings>
+    <mirrors>
+        <mirror>
+            <id>central</id>
+            <url>https://mirrors.tencent.com/nexus/repository/maven-public</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+    </mirrors>
+</settings>
