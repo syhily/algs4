@@ -1,6 +1,7 @@
 package moe.yufan.study.chapter1.section1;
 
 import edu.princeton.cs.algs4.StdOut;
+import lombok.experimental.UtilityClass;
 
 /**
  * Write a program that takes three integer command-line arguments and prints equal if all three are equal,
@@ -10,6 +11,7 @@ import edu.princeton.cs.algs4.StdOut;
  * @version 1.0.0, 2020-12-04 20:54
  * @since 1.0.0, 2020-12-04 20:54
  */
+@UtilityClass
 public class ThreeInputs {
 
     public static void main(String[] args) {
