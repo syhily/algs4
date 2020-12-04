@@ -6,8 +6,8 @@ The answer for Algorithms, 4th Edition
 
 1. 安装 maven：`brew install maven`
 2. 安装 git：`xcode-select --install`
-3. 安装 JDK：https://docs.oracle.com/en/java/javase/15/install/installation-jdk-macos.html#GUID-2FE451B0-9572-4E38-A1A5-568B77B146DE
-4. 安装 IntelliJ IDEA：https://www.jetbrains.com/idea/download/
+3. 安装 JDK：<https://docs.oracle.com/en/java/javase/15/install/installation-jdk-macos.html>
+4. 安装 IntelliJ IDEA：<https://www.jetbrains.com/idea/download/>
 
 ##  项目初始化
 
@@ -22,3 +22,10 @@ The answer for Algorithms, 4th Edition
     <version>1.0.4</version>
 </dependency>
 ```
+
+## 习题解答
+
+1. 第一章
+   1. [1.1 习题解答](src/main/java/moe/yufan/study/chapter1/section1/README.md)
+   2. [1.2 习题解答](src/main/java/moe/yufan/study/chapter1/section2/README.md)
+   3. [1.3 习题解答](src/main/java/moe/yufan/study/chapter1/section3/README.md)
